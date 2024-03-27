@@ -1,0 +1,400 @@
+* {
+  font-family: Montserrat;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 85px;
+  background-color: #000205;
+}
+nav .Logo {
+  width: 200px;
+  height: 60px;
+  object-fit: contain;
+  padding: 12px 0 0 135px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_content {
+  width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -90px;
+}
+nav .nav_content .header_list {
+  list-style-type: none;
+}
+nav .nav_content .header_list .header_item .header_link {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+}
+nav .nav_content .header_list .header_item a {
+  text-decoration: none;
+  color: #fff;
+}
+.picture {
+  padding: 18px 135px 15px 0;
+}
+.picture img {
+  left: 0;
+  margin-right: 20px;
+}
+.hero {
+  margin: 0 auto;
+  padding: 0 0 0 135px;
+  height: 625px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(
+    55deg,
+    #082d3a 79%,
+    rgba(8, 45, 58, 0) 105%
+  );
+  display: flex;
+}
+
+.hero .offer_counstruction {
+  width: 526px;
+  min-height: 241px;
+  padding-top: 120px;
+  position: absolute;
+}
+h1 {
+  font-weight: 800;
+  font-size: 64px;
+  color: #fff;
+}
+.oc_text {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-top: -55px;
+}
+.in_basket {
+  cursor: pointer;
+  margin-right: 54px;
+  margin-top: 27px;
+  border-radius: 50px;
+  width: 168px;
+  height: 45px;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #000205;
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.in_catalog {
+  cursor: pointer;
+  border-radius: 50px;
+  width: 168px;
+  height: 45px;
+  background: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  color: #000;
+}
+.ph_hero {
+  width: 800px;
+  height: 625px;
+  margin-left: 614px;
+}
+.catalog {
+  position: relative;
+  background: #082d3a;
+  height: 555px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0 0 0;
+}
+.catalog img {
+  position: absolute;
+  width: 1519px;
+  width: 100%;
+  height: 555px;
+}
+.catalog .catalog_info {
+  width: 1170px;
+  min-height: 390px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 55px;
+  padding-right: 10px;
+}
+
+.catalog .picture_item1 {
+  background: url(../images/catalog/manga.png) center center/cover no-repeat;
+  width: 279px;
+  height: 390px;
+}
+.catalog .picture_item2 {
+  background: url(../images/catalog/clothes.png) center center/cover no-repeat;
+  width: 279px;
+  height: 390px;
+}
+
+.catalog .picture_item3 {
+  background: url(../images/catalog/souvenirs.png) center center/cover no-repeat;
+  width: 279px;
+  height: 390px;
+}
+.button_position {
+  display: flex;
+  justify-content: center;
+  padding-top: 310px;
+}
+
+.btn_manga {
+  width: 222px;
+  height: 52px;
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.64);
+  background: #267491;
+  border: none;
+
+  font-weight: 900;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* секція про нас */
+
+.about_us {
+  padding: 57px 155px 0 135px;
+  height: 704px;
+  position: relative;
+  background: #082d3a;
+}
+.about_info {
+  min-height: 478px;
+  width: 618px;
+  padding-top: 30px;
+}
+.about_us .about {
+  font-weight: 800;
+  font-size: 64px;
+  color: #fff;
+}
+.about_us .about_descr {
+  margin-top: -20px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+.about_all_content {
+  display: flex;
+}
+.about_picture {
+  padding-left: 21px;
+}
+.about_us .img_about_us {
+  width: 100%;
+  position: absolute;
+  margin-left: -135px;
+}
+/* контент парцюємо для вас */
+
+.work_for_you {
+  padding: 2px 100px 12px 135px;
+  height: 374px;
+
+  background: #267491;
+}
+.work_for_you_label {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+.content_for_picture {
+  width: 251px;
+  min-height: 305px;
+}
+
+.content_for_picture .picture_descr {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+.work_for_you_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* секція про продукти */
+
+.product {
+  padding: 25px 165px 0px 165px;
+  background: #092e3b;
+  height: 1323px;
+}
+.product .product_img {
+  width: 100%;
+  position: absolute;
+  margin-left: -166px;
+  margin-top: 80px;
+}
+.catalog_label {
+  font-weight: 800;
+  font-size: 48px;
+  color: #fff;
+}
+.product_all {
+  width: 100%;
+  height: 1000px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_block {
+  background-color: #267491;
+  box-shadow: 6px 7px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.product_block {
+  width: 370px;
+  height: 490px;
+  margin-bottom: 17px;
+}
+.product_text {
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: center;
+  color: #fff;
+}
+.product_text_2 {
+  padding-top: 19px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* секція про відгуки*/
+.reviews {
+  background: #267491;
+  padding: 20px 141px 96px 141px;
+}
+.reviews_label {
+  font-weight: 900;
+  font-size: 40px;
+  color: #fff;
+}
+.block_review {
+  margin-bottom: 59px;
+  width: 1079px;
+  height: 176px;
+  box-shadow: 8px 8px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  border-radius: 21px;
+  padding: 20px 66px 0px 24px;
+}
+.block_review .name {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+.block_review .name_descr {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  padding-left: 41px;
+  padding-top: 11px;
+}
+.reviews .text_review {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+.reviews input {
+  background: #fff;
+  border-radius: 21px;
+  width: 1169px;
+  height: 28px;
+  border: none;
+  padding-left: 20px;
+}
+
+.reviews textarea {
+  margin-top: 24px;
+  background: #fff;
+  border-radius: 21px;
+  width: 1169px;
+  height: 110px;
+  border: none;
+  padding: 8px 0 0 20px;
+}
+.reviews button {
+  cursor: pointer;
+  margin-top: 20px;
+}
+.reviews .send {
+  background: #000;
+  border-radius: 27px;
+  width: 245px;
+  height: 55px;
+
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+.mimi {
+  position: absolute;
+  width: 145px;
+  height: 135px;
+  margin: 36px 0 0 988px;
+}
+
+footer {
+  background: #000;
+  height: 100px;
+  padding: 60px 221px 81px 141px;
+}
+.all_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.Logo_2 {
+  width: 280px;
+  height: 80px;
+}
+.footer_content {
+  margin-top: -22px;
+}
+.footer_info {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+.footer_content ul {
+  margin-top: -12px;
+  padding-left: 0;
+  list-style: none;
+  cursor: pointer;
+
+  color: #fff;
+}
+.footer_content ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+  font-size: 14px;
+  color: #fff;
+}
+.Copyrigh {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
